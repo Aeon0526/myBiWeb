@@ -52,7 +52,7 @@ const Welcome: React.FC = () => {
           <HeartTwoTone twoToneColor="#eb2f96" />
         </Typography.Title>
         <Paragraph style={{ color: 'blue' }}>
-          我们的教学数据智能分析系统是一个革命性的数据分析工具，为用户提供了轻松、快速且智能化的数据分析体验。
+          教学数据智能分析系统只为给用户提供轻松、快速且智能化的数据分析体验。
         </Paragraph>
         <Paragraph style={{ color: '#0d9d8e', fontWeight: 'bold' }}>
           <pre>{blockContent}</pre>
