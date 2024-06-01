@@ -60,35 +60,35 @@ const columns: ProColumns<API.User>[] = [
     tip: '用户名称',
     align: 'center',
   },
-  {
-    title: '编号',
-    dataIndex: 'userCode',
-    copyable: true,
-    align: 'center',
-  },
-  {
-    title: '电话',
-    dataIndex: 'phone',
-    copyable: true,
-    align: 'center',
-  },
-  {
-    title: '邮件',
-    dataIndex: 'email',
-    copyable: true,
-    align: 'center',
-  },
-  {
-    title: '性别',
-    dataIndex: 'gender',
-    // 枚举
-    valueType: 'select',
-    valueEnum: {
-      男: { text: <Tag color="success">男</Tag> },
-      女: { text: <Tag color="error">女</Tag> },
-    },
-    align: 'center',
-  },
+  // {
+  //   title: '编号',
+  //   dataIndex: 'userCode',
+  //   copyable: true,
+  //   align: 'center',
+  // },
+  // {
+  //   title: '电话',
+  //   dataIndex: 'phone',
+  //   copyable: true,
+  //   align: 'center',
+  // },
+  // {
+  //   title: '邮件',
+  //   dataIndex: 'email',
+  //   copyable: true,
+  //   align: 'center',
+  // },
+  // {
+  //   title: '性别',
+  //   dataIndex: 'gender',
+  //   // 枚举
+  //   valueType: 'select',
+  //   valueEnum: {
+  //     男: { text: <Tag color="success">男</Tag> },
+  //     女: { text: <Tag color="error">女</Tag> },
+  //   },
+  //   align: 'center',
+  // },
   {
     title: '用户状态',
     dataIndex: 'status',
